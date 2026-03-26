@@ -239,6 +239,22 @@ def main() -> None:
     axs[1].set_title("Distribution of Requests")
     plt.savefig(OUTPUT_FILE_PLOT)
     LOG.info(f"Wrote latency and request histogram plot: {OUTPUT_FILE_PLOT}")
+    plt.clf()  # Clear the figure for the next plot
+    # Plot Requests And Error Rate Vs Latency
+    fig, axs = plt.subplots(1, 2, sharey=True, tight_layout=True)
+    axs[0].scatter(signals_df["requests"], signals_df["avg_latency_ms"], color='blue')
+    axs[0].set_ylabel("Average Latency (ms)")
+    axs[0].set_xlabel("Requests")
+    axs[0].set_title("Requests vs Average Latency")
+    axs[1].scatter(
+        signals_df["error_rate"], signals_df["avg_latency_ms"], color='orange'
+    )
+    axs[1].set_xlabel("Error Rate")
+    axs[1].set_title("Error Rate vs Average Latency")
+    plt.savefig(ARTIFACTS_DIR / "requests_error_rate_vs_latency.png")
+    LOG.info(
+        f"Wrote requests and error rate vs latency scatter plot: {ARTIFACTS_DIR / 'requests_error_rate_vs_latency.png'}"
+    )
 
     LOG.info("========================")
     LOG.info("Pipeline executed successfully!")
