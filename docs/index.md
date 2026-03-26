@@ -1,4 +1,4 @@
-## Custom Project
+# Custom Project
 
 ### Dataset
 I used web service metrics which contained number of errors, requests and total latency time. (Source: https://denisecase.github.io/pro-analytics-02/reference/datasets/cintel/#9-web-service-metrics-example-file)
@@ -16,9 +16,6 @@ Only 3 of the data rows had a latency above the 90th percentile. Of these three 
 ### Interpretation
 Without detailed latency information (latency per request versus per error, for example) it's difficult to determine if errors are slow or if more requests result in greater latency.
 
-### Figures
-![Visualization 1](../artifacts/latency_histogram.png)
-![Visualization 2](../artifacts/requests_error_rate_vs_latency.png)
 
 # Continuous Intelligence
 
