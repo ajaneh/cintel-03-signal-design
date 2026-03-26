@@ -94,3 +94,726 @@
 2026-03-25 11:01:35 | INFO | P3 | Pipeline executed successfully!
 2026-03-25 11:01:35 | INFO | P3 | ========================
 2026-03-25 11:01:35 | INFO | P3 | END main()
+2026-03-26 11:04:46 | INFO | P3 | === RUN START ===
+2026-03-26 11:04:46 | INFO | P3 | project=CINTEL
+2026-03-26 11:04:46 | INFO | P3 | repo_dir=cintel-03-signal-design
+2026-03-26 11:04:46 | INFO | P3 | python=3.14.0
+2026-03-26 11:04:46 | INFO | P3 | os=Windows 11
+2026-03-26 11:04:46 | INFO | P3 | shell=powershell
+2026-03-26 11:04:46 | INFO | P3 | cwd=.
+2026-03-26 11:04:46 | INFO | P3 | github_actions=False
+2026-03-26 11:04:46 | INFO | P3 | ========================
+2026-03-26 11:04:46 | INFO | P3 | START main()
+2026-03-26 11:04:46 | INFO | P3 | ========================
+2026-03-26 11:04:46 | INFO | P3 | ROOT_DIR = .
+2026-03-26 11:04:46 | INFO | P3 | DATA_FILE = data\web_service_metrics.csv
+2026-03-26 11:04:46 | INFO | P3 | OUTPUT_FILE = artifacts\signals_alex.csv
+2026-03-26 11:04:46 | INFO | P3 | ARTIFACTS_DIR = artifacts
+2026-03-26 11:04:46 | INFO | P3 | Loaded 30 system metric records
+2026-03-26 11:04:46 | INFO | P3 | Designing signals from the raw metrics...
+2026-03-26 11:04:46 | INFO | P3 | Created signal columns: error_rate, avg_latency_ms, throughput, error_rate_per_request
+2026-03-26 11:04:46 | INFO | P3 | Enhanced signals table has 30 rows
+2026-03-26 11:04:46 | INFO | P3 | Wrote signals file: C:\Repos\cintel-03-signal-design\artifacts\signals_alex.csv
+2026-03-26 11:04:46 | INFO | P3 | ========================
+2026-03-26 11:04:46 | INFO | P3 | Pipeline executed successfully!
+2026-03-26 11:04:46 | INFO | P3 | ========================
+2026-03-26 11:04:46 | INFO | P3 | END main()
+2026-03-26 11:33:17 | INFO | P3 | === RUN START ===
+2026-03-26 11:33:17 | INFO | P3 | project=CINTEL
+2026-03-26 11:33:17 | INFO | P3 | repo_dir=cintel-03-signal-design
+2026-03-26 11:33:17 | INFO | P3 | python=3.14.0
+2026-03-26 11:33:17 | INFO | P3 | os=Windows 11
+2026-03-26 11:33:17 | INFO | P3 | shell=powershell
+2026-03-26 11:33:17 | INFO | P3 | cwd=.
+2026-03-26 11:33:17 | INFO | P3 | github_actions=False
+2026-03-26 11:33:17 | INFO | P3 | ========================
+2026-03-26 11:33:17 | INFO | P3 | START main()
+2026-03-26 11:33:17 | INFO | P3 | ========================
+2026-03-26 11:33:17 | INFO | P3 | ROOT_DIR = .
+2026-03-26 11:33:17 | INFO | P3 | DATA_FILE = data\web_service_metrics.csv
+2026-03-26 11:33:17 | INFO | P3 | OUTPUT_FILE = artifacts\signals_alex.csv
+2026-03-26 11:33:17 | INFO | P3 | ARTIFACTS_DIR = artifacts
+2026-03-26 11:33:17 | INFO | P3 | Loaded 30 system metric records
+2026-03-26 11:33:17 | INFO | P3 | Designing signals from the raw metrics...
+2026-03-26 11:33:17 | INFO | P3 | Created signal columns: error_rate, avg_latency_ms, throughput, error_rate_per_request
+2026-03-26 11:33:17 | INFO | P3 | Enhanced signals table has 30 rows
+2026-03-26 11:33:17 | INFO | P3 | Wrote signals file: C:\Repos\cintel-03-signal-design\artifacts\signals_alex.csv
+2026-03-26 11:34:06 | INFO | P3 | === RUN START ===
+2026-03-26 11:34:06 | INFO | P3 | project=CINTEL
+2026-03-26 11:34:06 | INFO | P3 | repo_dir=cintel-03-signal-design
+2026-03-26 11:34:06 | INFO | P3 | python=3.14.0
+2026-03-26 11:34:06 | INFO | P3 | os=Windows 11
+2026-03-26 11:34:06 | INFO | P3 | shell=powershell
+2026-03-26 11:34:06 | INFO | P3 | cwd=.
+2026-03-26 11:34:06 | INFO | P3 | github_actions=False
+2026-03-26 11:34:06 | INFO | P3 | ========================
+2026-03-26 11:34:06 | INFO | P3 | START main()
+2026-03-26 11:34:06 | INFO | P3 | ========================
+2026-03-26 11:34:06 | INFO | P3 | ROOT_DIR = .
+2026-03-26 11:34:06 | INFO | P3 | DATA_FILE = data\web_service_metrics.csv
+2026-03-26 11:34:06 | INFO | P3 | OUTPUT_FILE = artifacts\signals_alex.csv
+2026-03-26 11:34:06 | INFO | P3 | ARTIFACTS_DIR = artifacts
+2026-03-26 11:34:06 | INFO | P3 | Loaded 30 system metric records
+2026-03-26 11:34:06 | INFO | P3 | Designing signals from the raw metrics...
+2026-03-26 11:34:06 | INFO | P3 | Created signal columns: error_rate, avg_latency_ms, throughput, error_rate_per_request
+2026-03-26 11:34:06 | INFO | P3 | Enhanced signals table has 30 rows
+2026-03-26 11:34:06 | INFO | P3 | Wrote signals file: C:\Repos\cintel-03-signal-design\artifacts\signals_alex.csv
+2026-03-26 11:34:07 | INFO | P3 | Wrote latency histogram plot: C:\Repos\cintel-03-signal-design\artifacts\latency_histogram.png
+2026-03-26 11:34:07 | INFO | P3 | ========================
+2026-03-26 11:34:07 | INFO | P3 | Pipeline executed successfully!
+2026-03-26 11:34:07 | INFO | P3 | ========================
+2026-03-26 11:34:07 | INFO | P3 | END main()
+2026-03-26 11:35:55 | INFO | P3 | === RUN START ===
+2026-03-26 11:35:55 | INFO | P3 | project=CINTEL
+2026-03-26 11:35:55 | INFO | P3 | repo_dir=cintel-03-signal-design
+2026-03-26 11:35:55 | INFO | P3 | python=3.14.0
+2026-03-26 11:35:55 | INFO | P3 | os=Windows 11
+2026-03-26 11:35:55 | INFO | P3 | shell=powershell
+2026-03-26 11:35:55 | INFO | P3 | cwd=.
+2026-03-26 11:35:55 | INFO | P3 | github_actions=False
+2026-03-26 11:35:55 | INFO | P3 | ========================
+2026-03-26 11:35:55 | INFO | P3 | START main()
+2026-03-26 11:35:55 | INFO | P3 | ========================
+2026-03-26 11:35:55 | INFO | P3 | ROOT_DIR = .
+2026-03-26 11:35:55 | INFO | P3 | DATA_FILE = data\web_service_metrics.csv
+2026-03-26 11:35:55 | INFO | P3 | OUTPUT_FILE = artifacts\signals_alex.csv
+2026-03-26 11:35:55 | INFO | P3 | ARTIFACTS_DIR = artifacts
+2026-03-26 11:35:55 | INFO | P3 | Loaded 30 system metric records
+2026-03-26 11:35:55 | INFO | P3 | Designing signals from the raw metrics...
+2026-03-26 11:35:55 | INFO | P3 | Created signal columns: error_rate, avg_latency_ms, throughput, error_rate_per_request
+2026-03-26 11:35:55 | INFO | P3 | Enhanced signals table has 30 rows
+2026-03-26 11:35:55 | INFO | P3 | Wrote signals file: C:\Repos\cintel-03-signal-design\artifacts\signals_alex.csv
+2026-03-26 11:35:56 | INFO | P3 | Wrote latency histogram plot: C:\Repos\cintel-03-signal-design\artifacts\latency_histogram.png
+2026-03-26 11:35:56 | INFO | P3 | ========================
+2026-03-26 11:35:56 | INFO | P3 | Pipeline executed successfully!
+2026-03-26 11:35:56 | INFO | P3 | ========================
+2026-03-26 11:35:56 | INFO | P3 | END main()
+2026-03-26 11:50:01 | INFO | P3 | === RUN START ===
+2026-03-26 11:50:01 | INFO | P3 | project=CINTEL
+2026-03-26 11:50:01 | INFO | P3 | repo_dir=cintel-03-signal-design
+2026-03-26 11:50:01 | INFO | P3 | python=3.14.0
+2026-03-26 11:50:01 | INFO | P3 | os=Windows 11
+2026-03-26 11:50:01 | INFO | P3 | shell=powershell
+2026-03-26 11:50:01 | INFO | P3 | cwd=.
+2026-03-26 11:50:01 | INFO | P3 | github_actions=False
+2026-03-26 11:50:01 | INFO | P3 | ========================
+2026-03-26 11:50:01 | INFO | P3 | START main()
+2026-03-26 11:50:01 | INFO | P3 | ========================
+2026-03-26 11:50:01 | INFO | P3 | ROOT_DIR = .
+2026-03-26 11:50:01 | INFO | P3 | DATA_FILE = data\web_service_metrics.csv
+2026-03-26 11:50:01 | INFO | P3 | OUTPUT_FILE = artifacts\signals_alex.csv
+2026-03-26 11:50:01 | INFO | P3 | ARTIFACTS_DIR = artifacts
+2026-03-26 11:50:01 | INFO | P3 | Loaded 30 system metric records
+2026-03-26 11:50:01 | INFO | P3 | Designing signals from the raw metrics...
+2026-03-26 11:51:06 | INFO | P3 | === RUN START ===
+2026-03-26 11:51:06 | INFO | P3 | project=CINTEL
+2026-03-26 11:51:06 | INFO | P3 | repo_dir=cintel-03-signal-design
+2026-03-26 11:51:06 | INFO | P3 | python=3.14.0
+2026-03-26 11:51:06 | INFO | P3 | os=Windows 11
+2026-03-26 11:51:06 | INFO | P3 | shell=powershell
+2026-03-26 11:51:06 | INFO | P3 | cwd=.
+2026-03-26 11:51:06 | INFO | P3 | github_actions=False
+2026-03-26 11:51:06 | INFO | P3 | ========================
+2026-03-26 11:51:06 | INFO | P3 | START main()
+2026-03-26 11:51:06 | INFO | P3 | ========================
+2026-03-26 11:51:06 | INFO | P3 | ROOT_DIR = .
+2026-03-26 11:51:06 | INFO | P3 | DATA_FILE = data\web_service_metrics.csv
+2026-03-26 11:51:06 | INFO | P3 | OUTPUT_FILE = artifacts\signals_alex.csv
+2026-03-26 11:51:06 | INFO | P3 | ARTIFACTS_DIR = artifacts
+2026-03-26 11:51:06 | INFO | P3 | Loaded 30 system metric records
+2026-03-26 11:51:06 | INFO | P3 | Designing signals from the raw metrics...
+2026-03-26 11:51:06 | INFO | P3 | Latency percentiles calculated: 25th, 50th, 75th, 90th, 95th {latency_percentiles}
+2026-03-26 11:51:06 | INFO | P3 | Created signal columns: error_rate, avg_latency_ms, throughput, error_rate_per_request, latency_percentiles
+2026-03-26 11:51:06 | INFO | P3 | Enhanced signals table has 30 rows
+2026-03-26 11:51:06 | INFO | P3 | Wrote signals file: C:\Repos\cintel-03-signal-design\artifacts\signals_alex.csv
+2026-03-26 11:51:06 | INFO | P3 | Wrote latency histogram plot: C:\Repos\cintel-03-signal-design\artifacts\latency_histogram.png
+2026-03-26 11:51:06 | INFO | P3 | ========================
+2026-03-26 11:51:06 | INFO | P3 | Pipeline executed successfully!
+2026-03-26 11:51:06 | INFO | P3 | ========================
+2026-03-26 11:51:06 | INFO | P3 | END main()
+2026-03-26 11:52:18 | INFO | P3 | === RUN START ===
+2026-03-26 11:52:18 | INFO | P3 | project=CINTEL
+2026-03-26 11:52:18 | INFO | P3 | repo_dir=cintel-03-signal-design
+2026-03-26 11:52:18 | INFO | P3 | python=3.14.0
+2026-03-26 11:52:18 | INFO | P3 | os=Windows 11
+2026-03-26 11:52:18 | INFO | P3 | shell=powershell
+2026-03-26 11:52:18 | INFO | P3 | cwd=.
+2026-03-26 11:52:18 | INFO | P3 | github_actions=False
+2026-03-26 11:52:18 | INFO | P3 | ========================
+2026-03-26 11:52:18 | INFO | P3 | START main()
+2026-03-26 11:52:18 | INFO | P3 | ========================
+2026-03-26 11:52:18 | INFO | P3 | ROOT_DIR = .
+2026-03-26 11:52:18 | INFO | P3 | DATA_FILE = data\web_service_metrics.csv
+2026-03-26 11:52:18 | INFO | P3 | OUTPUT_FILE = artifacts\signals_alex.csv
+2026-03-26 11:52:18 | INFO | P3 | ARTIFACTS_DIR = artifacts
+2026-03-26 11:52:18 | INFO | P3 | Loaded 30 system metric records
+2026-03-26 11:52:18 | INFO | P3 | Designing signals from the raw metrics...
+2026-03-26 11:52:18 | INFO | P3 | Latency percentiles calculated: 25th, 50th, 75th, 90th, 95th {latency_percentiles}
+2026-03-26 11:52:18 | INFO | P3 | Created signal columns: error_rate, avg_latency_ms, throughput, error_rate_per_request, latency_percentiles
+2026-03-26 11:52:18 | INFO | P3 | Enhanced signals table has 30 rows
+2026-03-26 11:52:18 | INFO | P3 | Wrote signals file: C:\Repos\cintel-03-signal-design\artifacts\signals_alex.csv
+2026-03-26 11:52:19 | INFO | P3 | Wrote latency histogram plot: C:\Repos\cintel-03-signal-design\artifacts\latency_histogram.png
+2026-03-26 11:52:19 | INFO | P3 | ========================
+2026-03-26 11:52:19 | INFO | P3 | Pipeline executed successfully!
+2026-03-26 11:52:19 | INFO | P3 | ========================
+2026-03-26 11:52:19 | INFO | P3 | END main()
+2026-03-26 12:09:15 | INFO | P3 | === RUN START ===
+2026-03-26 12:09:15 | INFO | P3 | project=CINTEL
+2026-03-26 12:09:15 | INFO | P3 | repo_dir=cintel-03-signal-design
+2026-03-26 12:09:15 | INFO | P3 | python=3.14.0
+2026-03-26 12:09:15 | INFO | P3 | os=Windows 11
+2026-03-26 12:09:15 | INFO | P3 | shell=powershell
+2026-03-26 12:09:15 | INFO | P3 | cwd=.
+2026-03-26 12:09:15 | INFO | P3 | github_actions=False
+2026-03-26 12:09:15 | INFO | P3 | ========================
+2026-03-26 12:09:15 | INFO | P3 | START main()
+2026-03-26 12:09:15 | INFO | P3 | ========================
+2026-03-26 12:09:15 | INFO | P3 | ROOT_DIR = .
+2026-03-26 12:09:15 | INFO | P3 | DATA_FILE = data\web_service_metrics.csv
+2026-03-26 12:09:15 | INFO | P3 | OUTPUT_FILE = artifacts\signals_alex.csv
+2026-03-26 12:09:15 | INFO | P3 | ARTIFACTS_DIR = artifacts
+2026-03-26 12:09:15 | INFO | P3 | Loaded 30 system metric records
+2026-03-26 12:09:15 | INFO | P3 | Designing signals from the raw metrics...
+2026-03-26 12:09:15 | INFO | P3 | Created signal columns: error_rate, avg_latency_ms, throughput, error_rate_per_request, latency_percentiles
+2026-03-26 12:09:15 | INFO | P3 | Latency percentiles calculated: shape: (30,)
+Series: 'latency_percentiles' [f64]
+[
+	0.033333
+	0.1
+	0.166667
+	0.233333
+	0.3
+	…
+	0.333333
+	0.266667
+	0.2
+	0.133333
+	0.066667
+] 
+2026-03-26 12:09:15 | INFO | P3 | Enhanced signals table has 30 rows
+2026-03-26 12:09:15 | INFO | P3 | Wrote signals file: C:\Repos\cintel-03-signal-design\artifacts\signals_alex.csv
+2026-03-26 12:09:16 | INFO | P3 | Wrote latency histogram plot: C:\Repos\cintel-03-signal-design\artifacts\latency_histogram.png
+2026-03-26 12:09:16 | INFO | P3 | ========================
+2026-03-26 12:09:16 | INFO | P3 | Pipeline executed successfully!
+2026-03-26 12:09:16 | INFO | P3 | ========================
+2026-03-26 12:09:16 | INFO | P3 | END main()
+2026-03-26 12:13:36 | INFO | P3 | === RUN START ===
+2026-03-26 12:13:36 | INFO | P3 | project=CINTEL
+2026-03-26 12:13:36 | INFO | P3 | repo_dir=cintel-03-signal-design
+2026-03-26 12:13:36 | INFO | P3 | python=3.14.0
+2026-03-26 12:13:36 | INFO | P3 | os=Windows 11
+2026-03-26 12:13:36 | INFO | P3 | shell=powershell
+2026-03-26 12:13:36 | INFO | P3 | cwd=.
+2026-03-26 12:13:36 | INFO | P3 | github_actions=False
+2026-03-26 12:13:36 | INFO | P3 | ========================
+2026-03-26 12:13:36 | INFO | P3 | START main()
+2026-03-26 12:13:36 | INFO | P3 | ========================
+2026-03-26 12:13:36 | INFO | P3 | ROOT_DIR = .
+2026-03-26 12:13:36 | INFO | P3 | DATA_FILE = data\web_service_metrics.csv
+2026-03-26 12:13:36 | INFO | P3 | OUTPUT_FILE = artifacts\signals_alex.csv
+2026-03-26 12:13:36 | INFO | P3 | ARTIFACTS_DIR = artifacts
+2026-03-26 12:13:36 | INFO | P3 | Loaded 30 system metric records
+2026-03-26 12:13:36 | INFO | P3 | Designing signals from the raw metrics...
+2026-03-26 12:13:36 | INFO | P3 | Created signal columns: error_rate, avg_latency_ms, throughput, error_rate_per_request, latency_percentiles
+2026-03-26 12:13:36 | INFO | P3 | Latency percentiles calculated: shape: (30,)
+Series: 'latency_percentiles' [f64]
+[
+	0.033333
+	0.1
+	0.166667
+	0.233333
+	0.3
+	…
+	0.333333
+	0.266667
+	0.2
+	0.133333
+	0.066667
+] 
+2026-03-26 12:15:38 | INFO | P3 | === RUN START ===
+2026-03-26 12:15:38 | INFO | P3 | project=CINTEL
+2026-03-26 12:15:38 | INFO | P3 | repo_dir=cintel-03-signal-design
+2026-03-26 12:15:38 | INFO | P3 | python=3.14.0
+2026-03-26 12:15:38 | INFO | P3 | os=Windows 11
+2026-03-26 12:15:38 | INFO | P3 | shell=powershell
+2026-03-26 12:15:38 | INFO | P3 | cwd=.
+2026-03-26 12:15:38 | INFO | P3 | github_actions=False
+2026-03-26 12:15:38 | INFO | P3 | ========================
+2026-03-26 12:15:38 | INFO | P3 | START main()
+2026-03-26 12:15:38 | INFO | P3 | ========================
+2026-03-26 12:15:38 | INFO | P3 | ROOT_DIR = .
+2026-03-26 12:15:38 | INFO | P3 | DATA_FILE = data\web_service_metrics.csv
+2026-03-26 12:15:38 | INFO | P3 | OUTPUT_FILE = artifacts\signals_alex.csv
+2026-03-26 12:15:38 | INFO | P3 | ARTIFACTS_DIR = artifacts
+2026-03-26 12:15:38 | INFO | P3 | Loaded 30 system metric records
+2026-03-26 12:15:38 | INFO | P3 | Designing signals from the raw metrics...
+2026-03-26 12:15:38 | INFO | P3 | Created signal columns: error_rate, avg_latency_ms, throughput, error_rate_per_request, latency_percentiles
+2026-03-26 12:15:38 | INFO | P3 | Latency percentiles calculated: shape: (30,)
+Series: 'latency_percentiles' [f64]
+[
+	0.033333
+	0.1
+	0.166667
+	0.233333
+	0.3
+	…
+	0.333333
+	0.266667
+	0.2
+	0.133333
+	0.066667
+] 
+2026-03-26 12:15:38 | INFO | P3 | Number of high latency occurrences: 3
+2026-03-26 12:15:38 | INFO | P3 | Enhanced signals table has 30 rows
+2026-03-26 12:15:38 | INFO | P3 | Wrote signals file: C:\Repos\cintel-03-signal-design\artifacts\signals_alex.csv
+2026-03-26 12:15:38 | INFO | P3 | Wrote latency histogram plot: C:\Repos\cintel-03-signal-design\artifacts\latency_histogram.png
+2026-03-26 12:15:38 | INFO | P3 | ========================
+2026-03-26 12:15:38 | INFO | P3 | Pipeline executed successfully!
+2026-03-26 12:15:38 | INFO | P3 | ========================
+2026-03-26 12:15:38 | INFO | P3 | END main()
+2026-03-26 12:18:35 | INFO | P3 | === RUN START ===
+2026-03-26 12:18:35 | INFO | P3 | project=CINTEL
+2026-03-26 12:18:35 | INFO | P3 | repo_dir=cintel-03-signal-design
+2026-03-26 12:18:35 | INFO | P3 | python=3.14.0
+2026-03-26 12:18:35 | INFO | P3 | os=Windows 11
+2026-03-26 12:18:35 | INFO | P3 | shell=powershell
+2026-03-26 12:18:35 | INFO | P3 | cwd=.
+2026-03-26 12:18:35 | INFO | P3 | github_actions=False
+2026-03-26 12:18:35 | INFO | P3 | ========================
+2026-03-26 12:18:35 | INFO | P3 | START main()
+2026-03-26 12:18:35 | INFO | P3 | ========================
+2026-03-26 12:18:35 | INFO | P3 | ROOT_DIR = .
+2026-03-26 12:18:35 | INFO | P3 | DATA_FILE = data\web_service_metrics.csv
+2026-03-26 12:18:35 | INFO | P3 | OUTPUT_FILE = artifacts\signals_alex.csv
+2026-03-26 12:18:35 | INFO | P3 | ARTIFACTS_DIR = artifacts
+2026-03-26 12:18:35 | INFO | P3 | Loaded 30 system metric records
+2026-03-26 12:18:35 | INFO | P3 | Designing signals from the raw metrics...
+2026-03-26 12:18:35 | INFO | P3 | Created signal columns: error_rate, avg_latency_ms, throughput, error_rate_per_request, latency_percentiles
+2026-03-26 12:18:35 | INFO | P3 | Latency percentiles calculated: shape: (30,)
+Series: 'latency_percentiles' [f64]
+[
+	0.033333
+	0.1
+	0.166667
+	0.233333
+	0.3
+	…
+	0.333333
+	0.266667
+	0.2
+	0.133333
+	0.066667
+] 
+2026-03-26 12:18:35 | INFO | P3 | Number of high latency occurrences: 3
+2026-03-26 12:18:35 | INFO | P3 | Enhanced signals table has 30 rows
+2026-03-26 12:18:35 | INFO | P3 | Wrote signals file: C:\Repos\cintel-03-signal-design\artifacts\signals_alex.csv
+2026-03-26 12:18:36 | INFO | P3 | Wrote latency histogram plot: C:\Repos\cintel-03-signal-design\artifacts\latency_histogram.png
+2026-03-26 12:18:36 | INFO | P3 | ========================
+2026-03-26 12:18:36 | INFO | P3 | Pipeline executed successfully!
+2026-03-26 12:18:36 | INFO | P3 | ========================
+2026-03-26 12:18:36 | INFO | P3 | END main()
+2026-03-26 12:19:16 | INFO | P3 | === RUN START ===
+2026-03-26 12:19:16 | INFO | P3 | project=CINTEL
+2026-03-26 12:19:16 | INFO | P3 | repo_dir=cintel-03-signal-design
+2026-03-26 12:19:16 | INFO | P3 | python=3.14.0
+2026-03-26 12:19:16 | INFO | P3 | os=Windows 11
+2026-03-26 12:19:16 | INFO | P3 | shell=powershell
+2026-03-26 12:19:16 | INFO | P3 | cwd=.
+2026-03-26 12:19:16 | INFO | P3 | github_actions=False
+2026-03-26 12:19:16 | INFO | P3 | ========================
+2026-03-26 12:19:16 | INFO | P3 | START main()
+2026-03-26 12:19:16 | INFO | P3 | ========================
+2026-03-26 12:19:16 | INFO | P3 | ROOT_DIR = .
+2026-03-26 12:19:16 | INFO | P3 | DATA_FILE = data\web_service_metrics.csv
+2026-03-26 12:19:16 | INFO | P3 | OUTPUT_FILE = artifacts\signals_alex.csv
+2026-03-26 12:19:16 | INFO | P3 | ARTIFACTS_DIR = artifacts
+2026-03-26 12:19:16 | INFO | P3 | Loaded 30 system metric records
+2026-03-26 12:19:16 | INFO | P3 | Designing signals from the raw metrics...
+2026-03-26 12:19:16 | INFO | P3 | Created signal columns: error_rate, avg_latency_ms, throughput, error_rate_per_request, latency_percentiles
+2026-03-26 12:19:16 | INFO | P3 | Latency percentiles calculated: shape: (30,)
+Series: 'latency_percentiles' [f64]
+[
+	0.0333
+	0.1
+	0.167
+	0.233
+	0.3
+	…
+	0.333
+	0.267
+	0.2
+	0.133
+	0.0667
+] 
+2026-03-26 12:19:16 | INFO | P3 | Number of high latency occurrences: 3
+2026-03-26 12:19:16 | INFO | P3 | Enhanced signals table has 30 rows
+2026-03-26 12:19:16 | INFO | P3 | Wrote signals file: C:\Repos\cintel-03-signal-design\artifacts\signals_alex.csv
+2026-03-26 12:19:16 | INFO | P3 | Wrote latency histogram plot: C:\Repos\cintel-03-signal-design\artifacts\latency_histogram.png
+2026-03-26 12:19:16 | INFO | P3 | ========================
+2026-03-26 12:19:16 | INFO | P3 | Pipeline executed successfully!
+2026-03-26 12:19:16 | INFO | P3 | ========================
+2026-03-26 12:19:16 | INFO | P3 | END main()
+2026-03-26 12:21:26 | INFO | P3 | === RUN START ===
+2026-03-26 12:21:26 | INFO | P3 | project=CINTEL
+2026-03-26 12:21:26 | INFO | P3 | repo_dir=cintel-03-signal-design
+2026-03-26 12:21:26 | INFO | P3 | python=3.14.0
+2026-03-26 12:21:26 | INFO | P3 | os=Windows 11
+2026-03-26 12:21:26 | INFO | P3 | shell=powershell
+2026-03-26 12:21:26 | INFO | P3 | cwd=.
+2026-03-26 12:21:26 | INFO | P3 | github_actions=False
+2026-03-26 12:21:26 | INFO | P3 | ========================
+2026-03-26 12:21:26 | INFO | P3 | START main()
+2026-03-26 12:21:26 | INFO | P3 | ========================
+2026-03-26 12:21:26 | INFO | P3 | ROOT_DIR = .
+2026-03-26 12:21:26 | INFO | P3 | DATA_FILE = data\web_service_metrics.csv
+2026-03-26 12:21:26 | INFO | P3 | OUTPUT_FILE = artifacts\signals_alex.csv
+2026-03-26 12:21:26 | INFO | P3 | ARTIFACTS_DIR = artifacts
+2026-03-26 12:21:26 | INFO | P3 | Loaded 30 system metric records
+2026-03-26 12:21:26 | INFO | P3 | Designing signals from the raw metrics...
+2026-03-26 12:21:26 | INFO | P3 | Created signal columns: error_rate, avg_latency_ms, throughput, error_rate_per_request, latency_percentiles
+2026-03-26 12:21:26 | INFO | P3 | Latency percentiles calculated: shape: (30,)
+Series: 'latency_percentiles' [f64]
+[
+	0.0333
+	0.1
+	0.167
+	0.233
+	0.3
+	…
+	0.333
+	0.267
+	0.2
+	0.133
+	0.0667
+] 
+2026-03-26 12:21:26 | INFO | P3 | Number of high latency occurrences: 3
+2026-03-26 12:21:26 | INFO | P3 | Enhanced signals table has 30 rows
+2026-03-26 12:21:26 | INFO | P3 | Rows with high latency:
+shape: (3, 8)
+┌──────────┬────────┬──────────────────┬────────────┬────────────────┬────────────┬─────────────────────┬───────────────────┐
+│ requests ┆ errors ┆ total_latency_ms ┆ error_rate ┆ avg_latency_ms ┆ throughput ┆ latency_percentiles ┆ high_latency_flag │
+│ ---      ┆ ---    ┆ ---              ┆ ---        ┆ ---            ┆ ---        ┆ ---                 ┆ ---               │
+│ i64      ┆ i64    ┆ i64              ┆ f64        ┆ f64            ┆ i64        ┆ f64                 ┆ bool              │
+╞══════════╪════════╪══════════════════╪════════════╪════════════════╪════════════╪═════════════════════╪═══════════════════╡
+│ 260      ┆ 12     ┆ 9800             ┆ 0.0462     ┆ 37.7           ┆ 260        ┆ 0.933               ┆ true              │
+│ 270      ┆ 13     ┆ 10500            ┆ 0.0481     ┆ 38.9           ┆ 270        ┆ 1.0                 ┆ true              │
+│ 260      ┆ 12     ┆ 9900             ┆ 0.0462     ┆ 38.1           ┆ 260        ┆ 0.967               ┆ true              │
+└──────────┴────────┴──────────────────┴────────────┴────────────────┴────────────┴─────────────────────┴───────────────────┘
+2026-03-26 12:21:26 | INFO | P3 | Wrote signals file: C:\Repos\cintel-03-signal-design\artifacts\signals_alex.csv
+2026-03-26 12:21:26 | INFO | P3 | Wrote latency histogram plot: C:\Repos\cintel-03-signal-design\artifacts\latency_histogram.png
+2026-03-26 12:21:26 | INFO | P3 | ========================
+2026-03-26 12:21:26 | INFO | P3 | Pipeline executed successfully!
+2026-03-26 12:21:26 | INFO | P3 | ========================
+2026-03-26 12:21:26 | INFO | P3 | END main()
+2026-03-26 12:24:42 | INFO | P3 | === RUN START ===
+2026-03-26 12:24:42 | INFO | P3 | project=CINTEL
+2026-03-26 12:24:42 | INFO | P3 | repo_dir=cintel-03-signal-design
+2026-03-26 12:24:42 | INFO | P3 | python=3.14.0
+2026-03-26 12:24:42 | INFO | P3 | os=Windows 11
+2026-03-26 12:24:42 | INFO | P3 | shell=powershell
+2026-03-26 12:24:42 | INFO | P3 | cwd=.
+2026-03-26 12:24:42 | INFO | P3 | github_actions=False
+2026-03-26 12:24:42 | INFO | P3 | ========================
+2026-03-26 12:24:42 | INFO | P3 | START main()
+2026-03-26 12:24:42 | INFO | P3 | ========================
+2026-03-26 12:24:42 | INFO | P3 | ROOT_DIR = .
+2026-03-26 12:24:42 | INFO | P3 | DATA_FILE = data\web_service_metrics.csv
+2026-03-26 12:24:42 | INFO | P3 | OUTPUT_FILE = artifacts\signals_alex.csv
+2026-03-26 12:24:42 | INFO | P3 | ARTIFACTS_DIR = artifacts
+2026-03-26 12:24:42 | INFO | P3 | Loaded 30 system metric records
+2026-03-26 12:24:42 | INFO | P3 | Designing signals from the raw metrics...
+2026-03-26 12:24:42 | INFO | P3 | Created signal columns: error_rate, avg_latency_ms, throughput, error_rate_per_request, latency_percentiles
+2026-03-26 12:24:42 | INFO | P3 | Latency percentiles calculated: shape: (30,)
+Series: 'latency_percentiles' [f64]
+[
+	0.0333
+	0.1
+	0.167
+	0.233
+	0.3
+	…
+	0.333
+	0.267
+	0.2
+	0.133
+	0.0667
+] 
+2026-03-26 12:24:42 | INFO | P3 | Number of high latency occurrences: 3
+2026-03-26 12:24:42 | INFO | P3 | Enhanced signals table has 30 rows
+2026-03-26 12:24:42 | INFO | P3 | Rows with high latency:
+shape: (3, 8)
+┌──────────┬────────┬──────────────────┬────────────┬────────────────┬────────────┬─────────────────────┬───────────────────┐
+│ requests ┆ errors ┆ total_latency_ms ┆ error_rate ┆ avg_latency_ms ┆ throughput ┆ latency_percentiles ┆ high_latency_flag │
+│ ---      ┆ ---    ┆ ---              ┆ ---        ┆ ---            ┆ ---        ┆ ---                 ┆ ---               │
+│ i64      ┆ i64    ┆ i64              ┆ f64        ┆ f64            ┆ i64        ┆ f64                 ┆ bool              │
+╞══════════╪════════╪══════════════════╪════════════╪════════════════╪════════════╪═════════════════════╪═══════════════════╡
+│ 260      ┆ 12     ┆ 9800             ┆ 0.0462     ┆ 37.7           ┆ 260        ┆ 0.933               ┆ true              │
+│ 270      ┆ 13     ┆ 10500            ┆ 0.0481     ┆ 38.9           ┆ 270        ┆ 1.0                 ┆ true              │
+│ 260      ┆ 12     ┆ 9900             ┆ 0.0462     ┆ 38.1           ┆ 260        ┆ 0.967               ┆ true              │
+└──────────┴────────┴──────────────────┴────────────┴────────────────┴────────────┴─────────────────────┴───────────────────┘
+2026-03-26 12:24:42 | INFO | P3 | Wrote signals file: C:\Repos\cintel-03-signal-design\artifacts\signals_alex.csv
+2026-03-26 12:24:43 | INFO | P3 | Wrote latency and error rate histogram plot: C:\Repos\cintel-03-signal-design\artifacts\latency_histogram.png
+2026-03-26 12:24:43 | INFO | P3 | ========================
+2026-03-26 12:24:43 | INFO | P3 | Pipeline executed successfully!
+2026-03-26 12:24:43 | INFO | P3 | ========================
+2026-03-26 12:24:43 | INFO | P3 | END main()
+2026-03-26 12:25:48 | INFO | P3 | === RUN START ===
+2026-03-26 12:25:48 | INFO | P3 | project=CINTEL
+2026-03-26 12:25:48 | INFO | P3 | repo_dir=cintel-03-signal-design
+2026-03-26 12:25:48 | INFO | P3 | python=3.14.0
+2026-03-26 12:25:48 | INFO | P3 | os=Windows 11
+2026-03-26 12:25:48 | INFO | P3 | shell=powershell
+2026-03-26 12:25:48 | INFO | P3 | cwd=.
+2026-03-26 12:25:48 | INFO | P3 | github_actions=False
+2026-03-26 12:25:48 | INFO | P3 | ========================
+2026-03-26 12:25:48 | INFO | P3 | START main()
+2026-03-26 12:25:48 | INFO | P3 | ========================
+2026-03-26 12:25:48 | INFO | P3 | ROOT_DIR = .
+2026-03-26 12:25:48 | INFO | P3 | DATA_FILE = data\web_service_metrics.csv
+2026-03-26 12:25:48 | INFO | P3 | OUTPUT_FILE = artifacts\signals_alex.csv
+2026-03-26 12:25:48 | INFO | P3 | ARTIFACTS_DIR = artifacts
+2026-03-26 12:25:48 | INFO | P3 | Loaded 30 system metric records
+2026-03-26 12:25:48 | INFO | P3 | Designing signals from the raw metrics...
+2026-03-26 12:25:48 | INFO | P3 | Created signal columns: error_rate, avg_latency_ms, throughput, error_rate_per_request, latency_percentiles
+2026-03-26 12:25:48 | INFO | P3 | Latency percentiles calculated: shape: (30,)
+Series: 'latency_percentiles' [f64]
+[
+	0.0333
+	0.1
+	0.167
+	0.233
+	0.3
+	…
+	0.333
+	0.267
+	0.2
+	0.133
+	0.0667
+] 
+2026-03-26 12:25:48 | INFO | P3 | Number of high latency occurrences: 3
+2026-03-26 12:25:48 | INFO | P3 | Enhanced signals table has 30 rows
+2026-03-26 12:25:48 | INFO | P3 | Rows with high latency:
+shape: (3, 8)
+┌──────────┬────────┬──────────────────┬────────────┬────────────────┬────────────┬─────────────────────┬───────────────────┐
+│ requests ┆ errors ┆ total_latency_ms ┆ error_rate ┆ avg_latency_ms ┆ throughput ┆ latency_percentiles ┆ high_latency_flag │
+│ ---      ┆ ---    ┆ ---              ┆ ---        ┆ ---            ┆ ---        ┆ ---                 ┆ ---               │
+│ i64      ┆ i64    ┆ i64              ┆ f64        ┆ f64            ┆ i64        ┆ f64                 ┆ bool              │
+╞══════════╪════════╪══════════════════╪════════════╪════════════════╪════════════╪═════════════════════╪═══════════════════╡
+│ 260      ┆ 12     ┆ 9800             ┆ 0.0462     ┆ 37.7           ┆ 260        ┆ 0.933               ┆ true              │
+│ 270      ┆ 13     ┆ 10500            ┆ 0.0481     ┆ 38.9           ┆ 270        ┆ 1.0                 ┆ true              │
+│ 260      ┆ 12     ┆ 9900             ┆ 0.0462     ┆ 38.1           ┆ 260        ┆ 0.967               ┆ true              │
+└──────────┴────────┴──────────────────┴────────────┴────────────────┴────────────┴─────────────────────┴───────────────────┘
+2026-03-26 12:25:48 | INFO | P3 | Wrote signals file: C:\Repos\cintel-03-signal-design\artifacts\signals_alex.csv
+2026-03-26 12:25:49 | INFO | P3 | Wrote latency and request histogram plot: C:\Repos\cintel-03-signal-design\artifacts\latency_histogram.png
+2026-03-26 12:25:49 | INFO | P3 | ========================
+2026-03-26 12:25:49 | INFO | P3 | Pipeline executed successfully!
+2026-03-26 12:25:49 | INFO | P3 | ========================
+2026-03-26 12:25:49 | INFO | P3 | END main()
+2026-03-26 12:28:48 | INFO | P3 | === RUN START ===
+2026-03-26 12:28:48 | INFO | P3 | project=CINTEL
+2026-03-26 12:28:48 | INFO | P3 | repo_dir=cintel-03-signal-design
+2026-03-26 12:28:48 | INFO | P3 | python=3.14.0
+2026-03-26 12:28:48 | INFO | P3 | os=Windows 11
+2026-03-26 12:28:48 | INFO | P3 | shell=powershell
+2026-03-26 12:28:48 | INFO | P3 | cwd=.
+2026-03-26 12:28:48 | INFO | P3 | github_actions=False
+2026-03-26 12:28:48 | INFO | P3 | ========================
+2026-03-26 12:28:48 | INFO | P3 | START main()
+2026-03-26 12:28:48 | INFO | P3 | ========================
+2026-03-26 12:28:48 | INFO | P3 | ROOT_DIR = .
+2026-03-26 12:28:48 | INFO | P3 | DATA_FILE = data\web_service_metrics.csv
+2026-03-26 12:28:48 | INFO | P3 | OUTPUT_FILE = artifacts\signals_alex.csv
+2026-03-26 12:28:48 | INFO | P3 | ARTIFACTS_DIR = artifacts
+2026-03-26 12:28:48 | INFO | P3 | Loaded 30 system metric records
+2026-03-26 12:28:48 | INFO | P3 | Designing signals from the raw metrics...
+2026-03-26 12:28:48 | INFO | P3 | Created signal columns: error_rate, avg_latency_ms, throughput, error_rate_per_request, latency_percentiles
+2026-03-26 12:28:48 | INFO | P3 | Latency percentiles calculated: shape: (30,)
+Series: 'latency_percentiles' [f64]
+[
+	0.0333
+	0.1
+	0.167
+	0.233
+	0.3
+	…
+	0.333
+	0.267
+	0.2
+	0.133
+	0.0667
+] 
+2026-03-26 12:28:48 | INFO | P3 | Number of high latency occurrences: 3
+2026-03-26 12:28:48 | INFO | P3 | Enhanced signals table has 30 rows
+2026-03-26 12:28:48 | INFO | P3 | Rows with high latency:
+shape: (3, 8)
+┌──────────┬────────┬──────────────────┬────────────┬────────────────┬────────────┬─────────────────────┬───────────────────┐
+│ requests ┆ errors ┆ total_latency_ms ┆ error_rate ┆ avg_latency_ms ┆ throughput ┆ latency_percentiles ┆ high_latency_flag │
+│ ---      ┆ ---    ┆ ---              ┆ ---        ┆ ---            ┆ ---        ┆ ---                 ┆ ---               │
+│ i64      ┆ i64    ┆ i64              ┆ f64        ┆ f64            ┆ i64        ┆ f64                 ┆ bool              │
+╞══════════╪════════╪══════════════════╪════════════╪════════════════╪════════════╪═════════════════════╪═══════════════════╡
+│ 260      ┆ 12     ┆ 9800             ┆ 0.0462     ┆ 37.7           ┆ 260        ┆ 0.933               ┆ true              │
+│ 270      ┆ 13     ┆ 10500            ┆ 0.0481     ┆ 38.9           ┆ 270        ┆ 1.0                 ┆ true              │
+│ 260      ┆ 12     ┆ 9900             ┆ 0.0462     ┆ 38.1           ┆ 260        ┆ 0.967               ┆ true              │
+└──────────┴────────┴──────────────────┴────────────┴────────────────┴────────────┴─────────────────────┴───────────────────┘
+2026-03-26 12:28:48 | INFO | P3 | Wrote signals file: C:\Repos\cintel-03-signal-design\artifacts\signals_alex.csv
+2026-03-26 12:28:49 | INFO | P3 | Wrote latency and request histogram plot: C:\Repos\cintel-03-signal-design\artifacts\latency_histogram.png
+2026-03-26 12:28:49 | INFO | P3 | ========================
+2026-03-26 12:28:49 | INFO | P3 | Pipeline executed successfully!
+2026-03-26 12:28:49 | INFO | P3 | ========================
+2026-03-26 12:28:49 | INFO | P3 | END main()
+2026-03-26 12:30:21 | INFO | P3 | === RUN START ===
+2026-03-26 12:30:21 | INFO | P3 | project=CINTEL
+2026-03-26 12:30:21 | INFO | P3 | repo_dir=cintel-03-signal-design
+2026-03-26 12:30:21 | INFO | P3 | python=3.14.0
+2026-03-26 12:30:21 | INFO | P3 | os=Windows 11
+2026-03-26 12:30:21 | INFO | P3 | shell=powershell
+2026-03-26 12:30:21 | INFO | P3 | cwd=.
+2026-03-26 12:30:21 | INFO | P3 | github_actions=False
+2026-03-26 12:30:21 | INFO | P3 | ========================
+2026-03-26 12:30:21 | INFO | P3 | START main()
+2026-03-26 12:30:21 | INFO | P3 | ========================
+2026-03-26 12:30:21 | INFO | P3 | ROOT_DIR = .
+2026-03-26 12:30:21 | INFO | P3 | DATA_FILE = data\web_service_metrics.csv
+2026-03-26 12:30:21 | INFO | P3 | OUTPUT_FILE = artifacts\signals_alex.csv
+2026-03-26 12:30:21 | INFO | P3 | ARTIFACTS_DIR = artifacts
+2026-03-26 12:30:21 | INFO | P3 | Loaded 30 system metric records
+2026-03-26 12:30:21 | INFO | P3 | Designing signals from the raw metrics...
+2026-03-26 12:30:21 | INFO | P3 | Created signal columns: error_rate, avg_latency_ms, throughput, error_rate_per_request, latency_percentiles
+2026-03-26 12:30:21 | INFO | P3 | Latency percentiles calculated: shape: (30,)
+Series: 'latency_percentiles' [f64]
+[
+	0.0333
+	0.1
+	0.167
+	0.233
+	0.3
+	…
+	0.333
+	0.267
+	0.2
+	0.133
+	0.0667
+] 
+2026-03-26 12:30:21 | INFO | P3 | Number of high latency occurrences: 3
+2026-03-26 12:30:21 | INFO | P3 | Enhanced signals table has 30 rows
+2026-03-26 12:30:21 | INFO | P3 | Rows with high latency:
+shape: (3, 8)
+┌──────────┬────────┬──────────────────┬────────────┬────────────────┬────────────┬─────────────────────┬───────────────────┐
+│ requests ┆ errors ┆ total_latency_ms ┆ error_rate ┆ avg_latency_ms ┆ throughput ┆ latency_percentiles ┆ high_latency_flag │
+│ ---      ┆ ---    ┆ ---              ┆ ---        ┆ ---            ┆ ---        ┆ ---                 ┆ ---               │
+│ i64      ┆ i64    ┆ i64              ┆ f64        ┆ f64            ┆ i64        ┆ f64                 ┆ bool              │
+╞══════════╪════════╪══════════════════╪════════════╪════════════════╪════════════╪═════════════════════╪═══════════════════╡
+│ 260      ┆ 12     ┆ 9800             ┆ 0.0462     ┆ 37.7           ┆ 260        ┆ 0.933               ┆ true              │
+│ 270      ┆ 13     ┆ 10500            ┆ 0.0481     ┆ 38.9           ┆ 270        ┆ 1.0                 ┆ true              │
+│ 260      ┆ 12     ┆ 9900             ┆ 0.0462     ┆ 38.1           ┆ 260        ┆ 0.967               ┆ true              │
+└──────────┴────────┴──────────────────┴────────────┴────────────────┴────────────┴─────────────────────┴───────────────────┘
+2026-03-26 12:30:21 | INFO | P3 | Wrote signals file: C:\Repos\cintel-03-signal-design\artifacts\signals_alex.csv
+2026-03-26 12:30:21 | INFO | P3 | Wrote latency and request histogram plot: C:\Repos\cintel-03-signal-design\artifacts\latency_histogram.png
+2026-03-26 12:30:21 | INFO | P3 | ========================
+2026-03-26 12:30:21 | INFO | P3 | Pipeline executed successfully!
+2026-03-26 12:30:21 | INFO | P3 | ========================
+2026-03-26 12:30:21 | INFO | P3 | END main()
+2026-03-26 12:30:33 | INFO | P3 | === RUN START ===
+2026-03-26 12:30:33 | INFO | P3 | project=CINTEL
+2026-03-26 12:30:33 | INFO | P3 | repo_dir=cintel-03-signal-design
+2026-03-26 12:30:33 | INFO | P3 | python=3.14.0
+2026-03-26 12:30:33 | INFO | P3 | os=Windows 11
+2026-03-26 12:30:33 | INFO | P3 | shell=powershell
+2026-03-26 12:30:33 | INFO | P3 | cwd=.
+2026-03-26 12:30:33 | INFO | P3 | github_actions=False
+2026-03-26 12:30:33 | INFO | P3 | ========================
+2026-03-26 12:30:33 | INFO | P3 | START main()
+2026-03-26 12:30:33 | INFO | P3 | ========================
+2026-03-26 12:30:33 | INFO | P3 | ROOT_DIR = .
+2026-03-26 12:30:33 | INFO | P3 | DATA_FILE = data\web_service_metrics.csv
+2026-03-26 12:30:33 | INFO | P3 | OUTPUT_FILE = artifacts\signals_alex.csv
+2026-03-26 12:30:33 | INFO | P3 | ARTIFACTS_DIR = artifacts
+2026-03-26 12:30:33 | INFO | P3 | Loaded 30 system metric records
+2026-03-26 12:30:33 | INFO | P3 | Designing signals from the raw metrics...
+2026-03-26 12:30:33 | INFO | P3 | Created signal columns: error_rate, avg_latency_ms, throughput, error_rate_per_request, latency_percentiles
+2026-03-26 12:30:33 | INFO | P3 | Latency percentiles calculated: shape: (30,)
+Series: 'latency_percentiles' [f64]
+[
+	0.0333
+	0.1
+	0.167
+	0.233
+	0.3
+	…
+	0.333
+	0.267
+	0.2
+	0.133
+	0.0667
+] 
+2026-03-26 12:30:33 | INFO | P3 | Number of high latency occurrences: 3
+2026-03-26 12:30:33 | INFO | P3 | Enhanced signals table has 30 rows
+2026-03-26 12:30:33 | INFO | P3 | Rows with high latency:
+shape: (3, 8)
+┌──────────┬────────┬──────────────────┬────────────┬────────────────┬────────────┬─────────────────────┬───────────────────┐
+│ requests ┆ errors ┆ total_latency_ms ┆ error_rate ┆ avg_latency_ms ┆ throughput ┆ latency_percentiles ┆ high_latency_flag │
+│ ---      ┆ ---    ┆ ---              ┆ ---        ┆ ---            ┆ ---        ┆ ---                 ┆ ---               │
+│ i64      ┆ i64    ┆ i64              ┆ f64        ┆ f64            ┆ i64        ┆ f64                 ┆ bool              │
+╞══════════╪════════╪══════════════════╪════════════╪════════════════╪════════════╪═════════════════════╪═══════════════════╡
+│ 260      ┆ 12     ┆ 9800             ┆ 0.0462     ┆ 37.7           ┆ 260        ┆ 0.933               ┆ true              │
+│ 270      ┆ 13     ┆ 10500            ┆ 0.0481     ┆ 38.9           ┆ 270        ┆ 1.0                 ┆ true              │
+│ 260      ┆ 12     ┆ 9900             ┆ 0.0462     ┆ 38.1           ┆ 260        ┆ 0.967               ┆ true              │
+└──────────┴────────┴──────────────────┴────────────┴────────────────┴────────────┴─────────────────────┴───────────────────┘
+2026-03-26 12:30:33 | INFO | P3 | Wrote signals file: C:\Repos\cintel-03-signal-design\artifacts\signals_alex.csv
+2026-03-26 12:30:34 | INFO | P3 | Wrote latency and request histogram plot: C:\Repos\cintel-03-signal-design\artifacts\latency_histogram.png
+2026-03-26 12:30:34 | INFO | P3 | ========================
+2026-03-26 12:30:34 | INFO | P3 | Pipeline executed successfully!
+2026-03-26 12:30:34 | INFO | P3 | ========================
+2026-03-26 12:30:34 | INFO | P3 | END main()
+2026-03-26 12:30:59 | INFO | P3 | === RUN START ===
+2026-03-26 12:30:59 | INFO | P3 | project=CINTEL
+2026-03-26 12:30:59 | INFO | P3 | repo_dir=cintel-03-signal-design
+2026-03-26 12:30:59 | INFO | P3 | python=3.14.0
+2026-03-26 12:30:59 | INFO | P3 | os=Windows 11
+2026-03-26 12:30:59 | INFO | P3 | shell=powershell
+2026-03-26 12:30:59 | INFO | P3 | cwd=.
+2026-03-26 12:30:59 | INFO | P3 | github_actions=False
+2026-03-26 12:30:59 | INFO | P3 | ========================
+2026-03-26 12:30:59 | INFO | P3 | START main()
+2026-03-26 12:30:59 | INFO | P3 | ========================
+2026-03-26 12:30:59 | INFO | P3 | ROOT_DIR = .
+2026-03-26 12:30:59 | INFO | P3 | DATA_FILE = data\web_service_metrics.csv
+2026-03-26 12:30:59 | INFO | P3 | OUTPUT_FILE = artifacts\signals_alex.csv
+2026-03-26 12:30:59 | INFO | P3 | ARTIFACTS_DIR = artifacts
+2026-03-26 12:30:59 | INFO | P3 | Loaded 30 system metric records
+2026-03-26 12:30:59 | INFO | P3 | Designing signals from the raw metrics...
+2026-03-26 12:30:59 | INFO | P3 | Created signal columns: error_rate, avg_latency_ms, throughput, error_rate_per_request, latency_percentiles
+2026-03-26 12:30:59 | INFO | P3 | Latency percentiles calculated: shape: (30,)
+Series: 'latency_percentiles' [f64]
+[
+	0.0333
+	0.1
+	0.167
+	0.233
+	0.3
+	…
+	0.333
+	0.267
+	0.2
+	0.133
+	0.0667
+] 
+2026-03-26 12:30:59 | INFO | P3 | Number of high latency occurrences: 3
+2026-03-26 12:30:59 | INFO | P3 | Enhanced signals table has 30 rows
+2026-03-26 12:30:59 | INFO | P3 | Rows with high latency:
+shape: (3, 8)
+┌──────────┬────────┬──────────────────┬────────────┬────────────────┬────────────┬─────────────────────┬───────────────────┐
+│ requests ┆ errors ┆ total_latency_ms ┆ error_rate ┆ avg_latency_ms ┆ throughput ┆ latency_percentiles ┆ high_latency_flag │
+│ ---      ┆ ---    ┆ ---              ┆ ---        ┆ ---            ┆ ---        ┆ ---                 ┆ ---               │
+│ i64      ┆ i64    ┆ i64              ┆ f64        ┆ f64            ┆ i64        ┆ f64                 ┆ bool              │
+╞══════════╪════════╪══════════════════╪════════════╪════════════════╪════════════╪═════════════════════╪═══════════════════╡
+│ 260      ┆ 12     ┆ 9800             ┆ 0.0462     ┆ 37.7           ┆ 260        ┆ 0.933               ┆ true              │
+│ 270      ┆ 13     ┆ 10500            ┆ 0.0481     ┆ 38.9           ┆ 270        ┆ 1.0                 ┆ true              │
+│ 260      ┆ 12     ┆ 9900             ┆ 0.0462     ┆ 38.1           ┆ 260        ┆ 0.967               ┆ true              │
+└──────────┴────────┴──────────────────┴────────────┴────────────────┴────────────┴─────────────────────┴───────────────────┘
+2026-03-26 12:30:59 | INFO | P3 | Wrote signals file: C:\Repos\cintel-03-signal-design\artifacts\signals_alex.csv
+2026-03-26 12:30:59 | INFO | P3 | Wrote latency and request histogram plot: C:\Repos\cintel-03-signal-design\artifacts\latency_histogram.png
+2026-03-26 12:30:59 | INFO | P3 | ========================
+2026-03-26 12:30:59 | INFO | P3 | Pipeline executed successfully!
+2026-03-26 12:30:59 | INFO | P3 | ========================
+2026-03-26 12:30:59 | INFO | P3 | END main()

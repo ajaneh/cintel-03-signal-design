@@ -18,6 +18,8 @@ We learn by doing.
 
 ## This Project
 
+![Visualization 1](./artifacts/latency_histogram.png)
+
 This project introduces **signal design**.
 
 The goal is to copy this repository,
@@ -31,7 +33,7 @@ signals are created from raw measurements.
 
 ## Data
 
-The example pipeline reads system metrics from: `data/system_metrics_case.csv`.
+The example pipeline reads system metrics from: `data/web_service_metrics.csv`.
 
 Each row represents a system observation with raw measurements
 such as requests, errors, and total latency.

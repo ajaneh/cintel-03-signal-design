@@ -5,6 +5,7 @@ import logging
 from pathlib import Path
 from typing import Final
 
+import matplotlib.pyplot as plt
 import polars as pl
 from datafun_toolkit.logger import get_logger, log_header, log_path
 
@@ -20,8 +21,9 @@ ARTIFACTS_DIR: Final[Path] = ROOT_DIR / "artifacts"
 
 # === DECLARE GLOBAL CONSTANTS FOR FILE PATHS ===
 
-DATA_FILE: Final[Path] = DATA_DIR / "system_metrics_case.csv"
-OUTPUT_FILE: Final[Path] = ARTIFACTS_DIR / "signals_case.csv"
+DATA_FILE: Final[Path] = DATA_DIR / "web_service_metrics.csv"
+OUTPUT_FILE: Final[Path] = ARTIFACTS_DIR / "signals_alex.csv"
+OUTPUT_FILE_PLOT: Final[Path] = ARTIFACTS_DIR / "latency_histogram.png"
 
 
 # === DEFINE THE MAIN FUNCTION ===
@@ -143,6 +145,11 @@ def main() -> None:
         .alias("avg_latency_ms")
     )
 
+    # Determine Latency Percentiles
+    latency_percentiles_recipe: pl.Expr = (
+        pl.col("total_latency_ms").rank() / pl.len()
+    ).alias("latency_percentiles")
+
     # ----------------------------------------------------
     # STEP 2.6: DEFINE THE THROUGHPUT SIGNAL RECIPE
     # ----------------------------------------------------
@@ -160,16 +167,32 @@ def main() -> None:
     # and create a new DataFrame with the added signal columns.
     df_with_signals: pl.DataFrame = df.with_columns(
         [
-            error_rate_signal_recipe,
-            avg_latency_signal_recipe,
-            throughput_signal_recipe,
-            error_rate_per_request_signal_recipe,
+            error_rate_signal_recipe.round_sig_figs(3),
+            avg_latency_signal_recipe.round_sig_figs(3),
+            throughput_signal_recipe.round_sig_figs(3),
+            error_rate_per_request_signal_recipe.round_sig_figs(3),
+            latency_percentiles_recipe.round_sig_figs(3),
         ]
     )
 
     LOG.info(
-        "Created signal columns: error_rate, avg_latency_ms, throughput, error_rate_per_request"
+        "Created signal columns: error_rate, avg_latency_ms, throughput, error_rate_per_request, latency_percentiles"
     )
+    LOG.info(
+        f"Latency percentiles calculated: {df_with_signals['latency_percentiles']} "
+    )
+
+    # Flag high latency (above 90th percentile)
+    df_with_signals = df_with_signals.with_columns(
+        pl.when(pl.col("latency_percentiles") > 0.9)
+        .then(True)
+        .otherwise(False)
+        .alias("high_latency_flag")
+    )
+
+    # Count high latency occurrences
+    high_latency_count = df_with_signals.filter(pl.col("high_latency_flag")).height
+    LOG.info(f"Number of high latency occurrences: {high_latency_count}")
 
     # ----------------------------------------------------
     # STEP 3: SELECT THE COLUMNS WE WANT TO SAVE
@@ -184,12 +207,17 @@ def main() -> None:
             "total_latency_ms",
             "error_rate",
             "avg_latency_ms",
-            "error_rate_per_request",
             "throughput",
+            "latency_percentiles",
+            "high_latency_flag",
         ]
     )
 
     LOG.info(f"Enhanced signals table has {signals_df.height} rows")
+
+    # Display rows with high latency
+    high_latency_rows = signals_df.filter(pl.col("high_latency_flag"))
+    LOG.info(f"Rows with high latency:\n{high_latency_rows}")
 
     # ----------------------------------------------------
     # STEP 4: SAVE THE SIGNALS TABLE AS AN ARTIFACT
@@ -199,6 +227,18 @@ def main() -> None:
     # as a CSV file at the OUTPUT_FILE path.
     signals_df.write_csv(OUTPUT_FILE)
     LOG.info(f"Wrote signals file: {OUTPUT_FILE}")
+
+    # STEP 5: Visuzalize latency and Request Distributions
+    fig, axs = plt.subplots(1, 2, sharey=True, tight_layout=True)
+    axs[0].hist(signals_df["avg_latency_ms"], bins=6)
+    axs[0].set_xlabel("Latency (ms)")
+    axs[0].set_ylabel("Frequency")
+    axs[0].set_title("Distribution of Latency")
+    axs[1].hist(signals_df["requests"], bins=[100, 125, 150, 175, 200, 225, 250, 275])
+    axs[1].set_xlabel("Requests")
+    axs[1].set_title("Distribution of Requests")
+    plt.savefig(OUTPUT_FILE_PLOT)
+    LOG.info(f"Wrote latency and request histogram plot: {OUTPUT_FILE_PLOT}")
 
     LOG.info("========================")
     LOG.info("Pipeline executed successfully!")
